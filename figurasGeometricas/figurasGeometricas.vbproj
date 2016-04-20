@@ -80,6 +80,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Model\Circulo.vb" />
+    <Compile Include="Model\Cuadrado.vb" />
     <Compile Include="Model\Punto.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

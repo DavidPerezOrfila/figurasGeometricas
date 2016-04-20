@@ -43,6 +43,14 @@
     Public Overrides Function toString() As String
         Return "Circulo{radio= " + Me.radio.ToString + " ," + "origen= " + Me.origen.toString + "}"
     End Function
+    Public Function esigual(circle As Circulo) As Boolean
+        Dim igual As Boolean
+        If Me.radio = circle.radio And Me.origen Is circle.origen Then
+            igual = True
+        Else
+            igual = False
+        End If
+    End Function
 
 
 

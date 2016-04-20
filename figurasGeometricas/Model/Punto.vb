@@ -69,5 +69,14 @@
     Public Function multiplicacion(ByVal p As Punto) As Punto
         Return New Punto(Me.getX() * p.getX(), Me.getY * p.getY())
     End Function
+    Public Function esigual(point As Punto) As Boolean
+        Dim igual As Boolean
+        If Me.x = point.x And Me.y = point.y Then
+            igual = True
+        Else
+            igual = False
+        End If
+        Return igual
+    End Function
 
 End Class
